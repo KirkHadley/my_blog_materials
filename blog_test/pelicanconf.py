@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Kirk Hadley'
 SITENAME = u'Training Problems'
-SITEURL = ''
-
+SITEURL = 'pisgahanalytics.com/blog'
+OUTPUT_PATH = '/var/www/sitematerials/blog'
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 # Feed generation is usually not desired when developing
@@ -29,6 +29,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-THEME = '/home/kirk/blog_materials/pelican-cait/'
+THEME = '/home/kirk/my_blog_materials/pelican-cait'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
